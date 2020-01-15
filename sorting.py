@@ -12,5 +12,5 @@ def sort(arr):
                 arr = np.delete(arr, i) # delete i-th value
                 arr = np.insert(arr, j, moving) # put the i-th value in front of j-th value
     t=time.clock() - t
-    print(str(t))
+    print("Calculation time "+str(t)+" seconds")
     return arr
